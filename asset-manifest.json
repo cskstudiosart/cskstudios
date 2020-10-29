@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cskstudios/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/cskstudios/static/js/main.351e630f.chunk.js",
+    "main.js.map": "/cskstudios/static/js/main.351e630f.chunk.js.map",
+    "runtime-main.js": "/cskstudios/static/js/runtime-main.91ba8949.js",
+    "runtime-main.js.map": "/cskstudios/static/js/runtime-main.91ba8949.js.map",
+    "static/js/2.bea6915a.chunk.js": "/cskstudios/static/js/2.bea6915a.chunk.js",
+    "static/js/2.bea6915a.chunk.js.map": "/cskstudios/static/js/2.bea6915a.chunk.js.map",
+    "static/js/3.30d947ba.chunk.js": "/cskstudios/static/js/3.30d947ba.chunk.js",
+    "static/js/3.30d947ba.chunk.js.map": "/cskstudios/static/js/3.30d947ba.chunk.js.map",
+    "index.html": "/cskstudios/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/cskstudios/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.bea6915a.chunk.js.LICENSE.txt": "/cskstudios/static/js/2.bea6915a.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/cskstudios/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91ba8949.js",
+    "static/js/2.bea6915a.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.351e630f.chunk.js"
+  ]
+}
