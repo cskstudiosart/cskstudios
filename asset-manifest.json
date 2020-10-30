@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cskstudios/static/css/main.6facfcee.chunk.css",
-    "main.js": "/cskstudios/static/js/main.a565627d.chunk.js",
-    "main.js.map": "/cskstudios/static/js/main.a565627d.chunk.js.map",
+    "main.js": "/cskstudios/static/js/main.cc2a6f4e.chunk.js",
+    "main.js.map": "/cskstudios/static/js/main.cc2a6f4e.chunk.js.map",
     "runtime-main.js": "/cskstudios/static/js/runtime-main.6e1ac28a.js",
     "runtime-main.js.map": "/cskstudios/static/js/runtime-main.6e1ac28a.js.map",
     "static/js/2.6c5c6a5b.chunk.js": "/cskstudios/static/js/2.6c5c6a5b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.6e1ac28a.js",
     "static/js/2.6c5c6a5b.chunk.js",
     "static/css/main.6facfcee.chunk.css",
-    "static/js/main.a565627d.chunk.js"
+    "static/js/main.cc2a6f4e.chunk.js"
   ]
 }
