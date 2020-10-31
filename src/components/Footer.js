@@ -62,7 +62,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            <img src='images/logo-white.png' className='logo-white' />
+                            <img src='images/logo-matt-white.png' className='logo-white' />
                             Studios
                         </Link>
                     </div>

@@ -30,7 +30,7 @@ function Navbar() {
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                         {/*CSK <i className='fab fa-typo3' />*/}
-                        <img src='images/logo-white.png' className='logo-white' />
+                        <img src='images/logo-matt-white.png' className='navbar-logo-white' />
                         Studios
                     </Link>
                     

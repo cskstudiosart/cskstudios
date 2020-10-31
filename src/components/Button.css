@@ -8,6 +8,8 @@
     outline: none;
     border: none;
     cursor: pointer;
+    font-family: 'Acumin Variable Concept';
+    font-variation-settings: "wght" 240, "wdth" 100, "opsz" 33;
   }
   
   .btn--primary {

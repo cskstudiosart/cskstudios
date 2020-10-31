@@ -1,7 +1,6 @@
 .navbar {
-    /*background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);*/
-    background: #1A1E25;
-    background: linear-gradient(90deg, rgb(17, 20, 25) 0%, rgb(26, 30, 37) 100%);
+    /*background-color: #1A1E25;*/
+    background: linear-gradient(90deg, rgb(26, 30, 37) 0%, rgb(17, 20, 25) 100%);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -30,6 +29,16 @@
     font-size: 1.8rem;
     display: flex;
     align-items: center;
+    font-family: 'Acumin Variable Concept';
+    font-variation-settings: "wght" 180, "wdth" 100, "opsz" 33;
+  }
+
+  .navbar-logo-white {
+    cursor: pointer;
+    width: 3.2rem;
+    height: auto;
+    margin-right: 7px;
+    margin-bottom: 8px;
   }
   
   .fa-typo3 {
@@ -45,7 +54,7 @@
     text-align: center;
     width: 60vw;
     justify-content: end;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
   }
   
   .nav-item {
@@ -57,8 +66,12 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: .8rem 1rem 0.5rem 1rem;
     height: 100%;
+    font-size: 1.2rem;
+    font-family: 'Acumin Variable Concept';
+    font-variation-settings: "wght" 200, "wdth" 100, "opsz" 33;
+    text-transform: uppercase;
   }
   
   .nav-links:hover {
@@ -106,8 +119,10 @@
     .nav-links {
       text-align: center;
       padding: 2rem;
+      padding-top: 2.4rem;
       width: 100%;
       display: table;
+      font-variation-settings: "wght" 240, "wdth" 100, "opsz" 33;
     }
   
     .nav-links:hover {
@@ -158,4 +173,8 @@
       color: #1A1E25;
       transition: 250ms;
     }
+  }
+
+  @media screen and (max-width: 960px) {
+    
   }

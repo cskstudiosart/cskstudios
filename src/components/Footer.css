@@ -121,18 +121,21 @@
 .social-logo {
     color: #EEEEEE;
     justify-self: start;
-    margin-left: 20px;
     margin-bottom: -8px;
     cursor: pointer;
     text-decoration: none;
     font-size: 1.8rem;
     display: flex;
     align-items: center;
+    font-family: 'Acumin Variable Concept';
+    font-variation-settings: "wght" 180, "wdth" 100, "opsz" 33;
 }
 
 .website-rights {
     color: #eeeeee;
-    margin-bottom: 0px;
+    margin-bottom: -6px;
+    font-family: 'Acumin Variable Concept';
+    font-variation-settings: "wght" 180, "wdth" 100, "opsz" 33;
 }
 
 @media screen and (max-width: 820px) {
@@ -142,6 +145,10 @@
 
     .footer-input {
         width: 100%;
+    }
+
+    .website-rights {
+        margin: 14px 0 10px 0;
     }
 
     .btn {
