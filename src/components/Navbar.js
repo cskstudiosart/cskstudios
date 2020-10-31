@@ -29,7 +29,9 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        CSK <i className='fab fa-typo3' />
+                        {/*CSK <i className='fab fa-typo3' />*/}
+                        <img src='images/logo-white.png' className='logo-white' />
+                        Studios
                     </Link>
                     
                     <div className='menu-icon' onClick={handleClick}>
@@ -63,13 +65,15 @@ function Navbar() {
                             </Link>
                         </li>
 
+                        {/*
                         <li className='nav-item'>
                             <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 Sign Up
                             </Link>
                         </li>
+                        */}
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Sign UP</Button>}
+                    {/*button && <Button buttonStyle='btn--outline'>Sign UP</Button>*/}
                 </div>
             </nav>
         </>

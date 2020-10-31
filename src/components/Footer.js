@@ -6,6 +6,7 @@ import './Footer.css'
 function Footer() {
     return (
         <div className='footer-container'>
+            {/*
             <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
                     Join the Adventure newsletter to recieve our best vacation deals
@@ -56,28 +57,29 @@ function Footer() {
                         <Link to='/'>Twitter</Link>
                     </div>
                 </div>
-            </div>
+            </div>*/}
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            CSK <i className='fab fa-typo3' />
+                            <img src='images/logo-white.png' className='logo-white' />
+                            Studios
                         </Link>
                     </div>
                     <small className='website-rights'>Cs.K. Studios © 2020</small>
                     <div className='social-icons'>
-                        <Link to='/' target='_blank' aria-label='Facebook' className='social-icon-link facebook'>
+                        <a href='https://facebook.com/csakany97' target='_blank' aria-label='Facebook' className='social-icon-link facebook'>
                             <i className='fab fa-facebook-f' />
-                        </Link>
-                        <Link to='/' target='_blank' aria-label='Instagram' className='social-icon-link instagram'>
+                        </a>
+                        <a href='https://instagram.com/csakany97' target='_blank' aria-label='Instagram' className='social-icon-link instagram'>
                             <i className='fab fa-instagram' />
-                        </Link>
-                        <Link to='/' target='_blank' aria-label='Youtube' className='social-icon-link youtube'>
+                        </a>
+                        <a href='/' target='_blank' aria-label='Youtube' className='social-icon-link youtube'>
                             <i className='fab fa-youtube' />
-                        </Link>
-                        <Link to='/' target='_blank' aria-label='Twitch' className='social-icon-link twitch'>
+                        </a>
+                        <a href='https://twitch.tv/varditv97' target='_blank' aria-label='Twitch' className='social-icon-link twitch'>
                             <i className='fab fa-twitch' />
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>
