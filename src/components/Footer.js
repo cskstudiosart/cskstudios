@@ -74,7 +74,7 @@ function Footer() {
                         <a href='https://instagram.com/csakany97' target='_blank' aria-label='Instagram' className='social-icon-link instagram'>
                             <i className='fab fa-instagram' />
                         </a>
-                        <a href='/' target='_blank' aria-label='Youtube' className='social-icon-link youtube'>
+                        <a href='https://www.youtube.com/channel/UCv9jtH_mvPAJvELDrGCPMKQ/featured' target='_blank' aria-label='Youtube' className='social-icon-link youtube'>
                             <i className='fab fa-youtube' />
                         </a>
                         <a href='https://twitch.tv/varditv97' target='_blank' aria-label='Twitch' className='social-icon-link twitch'>
