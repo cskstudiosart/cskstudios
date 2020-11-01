@@ -85,7 +85,13 @@
     transition: all 0.2s linear;
   }
   
-  .cards__item__image:hover {
+  .cards__item__link:hover {
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.3);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.03));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.03));
+  }
+
+  .cards__item__link:hover .cards__item__image {
     transform: scale(1.1);
     box-shadow: inset 0 0 0 1000px rgba(34,40,49,0.0);
   }
