@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
 import Title from '../Title';
 
 function Modelling() {
@@ -8,7 +7,6 @@ function Modelling() {
     return (
         <>
             <h1>Modelling</h1>
-            <Footer />
         </>
     );
 };

@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
 import Title from '../Title';
 
 function SignUp() {
@@ -8,7 +7,6 @@ function SignUp() {
     return (
         <>
             <h1 className='sign-up_page'>SIGN UP</h1>
-            <Footer />
         </>
     );
 };

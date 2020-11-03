@@ -13,19 +13,19 @@ function GaleryCards() {
                         src='images/galery-cover-0.jpg'
                         text='Handmade on real paper.'
                         label='Hand drawing'
-                        path='/galery/handdrawing'
+                        path='/handdrawing'
                         />
                         <CardItem
                         src='images/galery-cover-1.png'
                         text='Made with a drawing tablet.'
                         label='Digital art'
-                        path='/galery/digitalart'
+                        path='/digitalart'
                         />
                         <CardItem
                         src='images/galery-cover-2.png'
                         text='Digital illustrations, logos.'
                         label='Illustration'
-                        path='/galery/illustration'
+                        path='/illustration'
                         />
                     </ul>
                     <ul className='cards__items'>
@@ -33,19 +33,19 @@ function GaleryCards() {
                         src='images/galery-cover-3.png'
                         text='3D modelling, sculpting, texturing with Blender / Solid Edge, KeyShot.'
                         label='Modelling'
-                        path='/galery/modelling'
+                        path='/modelling'
                         />
                         <CardItem
                         src='images/galery-cover-4.png'
                         text='2D and 2D animations, short films.'
                         label='Animation'
-                        path='/galery/animation'
+                        path='/animation'
                         />
                         <CardItem
                         src='images/galery-cover-5.jpg'
                         text='Timelapse of my drawing, modelling.'
                         label='Timelapse'
-                        path='/galery/timelapse'
+                        path='/timelapse'
                         />
                     </ul>
                 </div>

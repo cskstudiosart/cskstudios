@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
 import GaleryCards from '../GaleryCards';
 import Title from '../Title';
 
@@ -9,7 +8,6 @@ function Galery() {
     return (
         <>
             <GaleryCards />
-            <Footer />
         </>
     );
 };

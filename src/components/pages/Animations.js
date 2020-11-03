@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
 import Title from '../Title';
 
 function Animations() {
@@ -8,7 +7,6 @@ function Animations() {
     return (
         <>
             <h1>Animation</h1>
-            <Footer />
         </>
     );
 };

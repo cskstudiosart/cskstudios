@@ -5,6 +5,10 @@
     font-family: 'PT Sans', sans-serif;
   }
 
+  :root {
+    --currheight: 100vh;
+  }
+
   @import url(//db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept);
   @font-face {font-family: "Acumin Variable Concept"; src: 
     url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.eot"); src: 
@@ -16,6 +20,10 @@
 
   body {
     background-color: #eeeeee;
+  }
+
+  .content-body {
+    min-height: calc(var(--currheight) - 201px);
   }
 
   .logo-white {

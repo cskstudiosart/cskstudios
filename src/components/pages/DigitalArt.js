@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
 import Title from '../Title';
 
 function DigitalArt() {
@@ -8,7 +7,6 @@ function DigitalArt() {
     return (
         <>
             <h1>DigitalArt</h1>
-            <Footer />
         </>
     );
 };
