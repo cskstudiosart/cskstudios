@@ -3,7 +3,7 @@ import '../../App.css';
 import Footer from '../Footer';
 import Title from '../Title';
 
-function Animation() {
+function Animations() {
     Title('Galery - Animation');
     return (
         <>
@@ -13,4 +13,4 @@ function Animation() {
     );
 };
 
-export default Animation;
+export default Animations;
