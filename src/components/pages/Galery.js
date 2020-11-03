@@ -1,13 +1,14 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
+import GaleryCards from '../GaleryCards';
 import Title from '../Title';
 
 function Galery() {
     Title('Galery');
     return (
         <>
-            <h1 className='galery'>GALERY</h1>
+            <GaleryCards />
             <Footer />
         </>
     );
