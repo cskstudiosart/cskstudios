@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Title(title) {
     var siteName = ' - Cs.K. Studios';
     return (

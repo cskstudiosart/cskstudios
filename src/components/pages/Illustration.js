@@ -3,7 +3,7 @@ import '../../App.css';
 import Title from '../Title';
 
 function Illustration() {
-    Title('Galery - Illustration');
+    Title('Illustration');
     return (
         <>
             <h1>Illustration</h1>

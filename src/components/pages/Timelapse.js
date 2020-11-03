@@ -3,7 +3,7 @@ import '../../App.css';
 import Title from '../Title';
 
 function Timelapse() {
-    Title('Galery - Timelapse');
+    Title('Timelapse');
     return (
         <>
             <h1>Timelapse</h1>
