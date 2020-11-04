@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.b1889e81.chunk.css",
-    "main.js": "/static/js/main.4e209b62.chunk.js",
-    "main.js.map": "/static/js/main.4e209b62.chunk.js.map",
+    "main.js": "/static/js/main.ce9843e1.chunk.js",
+    "main.js.map": "/static/js/main.ce9843e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.251c968d.js",
     "runtime-main.js.map": "/static/js/runtime-main.251c968d.js.map",
-    "static/js/2.034a2a44.chunk.js": "/static/js/2.034a2a44.chunk.js",
-    "static/js/2.034a2a44.chunk.js.map": "/static/js/2.034a2a44.chunk.js.map",
+    "static/js/2.6eab7e29.chunk.js": "/static/js/2.6eab7e29.chunk.js",
+    "static/js/2.6eab7e29.chunk.js.map": "/static/js/2.6eab7e29.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.b1889e81.chunk.css.map": "/static/css/main.b1889e81.chunk.css.map",
-    "static/js/2.034a2a44.chunk.js.LICENSE.txt": "/static/js/2.034a2a44.chunk.js.LICENSE.txt",
+    "static/js/2.6eab7e29.chunk.js.LICENSE.txt": "/static/js/2.6eab7e29.chunk.js.LICENSE.txt",
     "static/media/HeroSection.css": "/static/media/home-bg.0c684c9b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.251c968d.js",
-    "static/js/2.034a2a44.chunk.js",
+    "static/js/2.6eab7e29.chunk.js",
     "static/css/main.b1889e81.chunk.css",
-    "static/js/main.4e209b62.chunk.js"
+    "static/js/main.ce9843e1.chunk.js"
   ]
 }
