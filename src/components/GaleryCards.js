@@ -47,12 +47,12 @@ function GaleryCards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         {
-                            categories.map((category) =>
+                            categories.sort((a, b) => a.cid > b.cid ? 1:-1).map((category) => // .sort(itt állítjuk be a sorolást, pl id szerint).map(itt hozzuk létre a felsorolást)
                                 <CardItem
                                 src={'images/galery-cover-'+category.cid+'.jpg'}
                                 text={category.ctext}
                                 label={category.clabel}
-                                path={category.cpath}
+                                path={'/'+category.cpath}
                                 />
                             )
                         }
