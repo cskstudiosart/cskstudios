@@ -14,10 +14,10 @@ function HeroSection() {
                 <h1>Studios</h1>
                 <p>We create the dreams</p>
                 <div className='hero-btns'>
-                    <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
+                    <Button className='btns' href='/about' buttonStyle='btn--outline' buttonSize='btn--large'>
                         About
                     </Button>
-                    <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
+                    <Button className='btns' href='/' buttonStyle='btn--primary' buttonSize='btn--large'>
                         WATCH TRAILER <i className='far fa-play-circle' />
                     </Button>
                 </div>
