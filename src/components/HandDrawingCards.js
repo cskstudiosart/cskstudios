@@ -34,9 +34,10 @@ function HandDrawingCards() {
                         {
                             handdrawings.sort((a, b) => a.cdate > b.cdate ? 1:-1).map((img) => // .sort(itt állítjuk be a sorolást, pl id szerint).map(itt hozzuk létre a felsorolást)
                                 <CardImage
+                                id={img.cid}
                                 src={'images/handdrawing/img-hnddrwng-'+img.cid+'.jpg'}
-                                text={img.cname}
-                                label={img.cdate}
+                                name={img.cname}
+                                date={img.cdate}
                                 path={'/'+img.cpath}
                                 />
                             )

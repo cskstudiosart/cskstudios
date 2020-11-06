@@ -10,11 +10,13 @@ function HandDrawing() {
         <>
             <HandDrawingCards />
 
-            {/*<ImageViewer
-                citext='Asd'
-                cisrc='asd'
-                cilabel='Test'
-            />*/}
+            {/*ImageViewer(
+                'Asd',
+                'asd',
+                'Test'
+            )*/}
+
+            {/*<ImageViewer text='Asd' src='asd' label='Test' />*/}
         </>
     );
 };

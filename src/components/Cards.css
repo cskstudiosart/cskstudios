@@ -29,7 +29,7 @@
   
   .cards__item {
     display: flex;
-    flex: 30%;
+    flex: 29%;
     margin: 0 1rem;
     margin-bottom: 2rem;
     border-radius: 10px;
