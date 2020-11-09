@@ -58,7 +58,7 @@ export function CardImage(props) {
     return (
         <>
             <li className='cards__item'>
-                <div className='cards__item__link' onClick={() => {isetButton(true)}}>
+                <div className='cards__item__link' onClick={() => {isetButton(true); console.log(props);}}>
                     <figure className='cards__item__pic-wrap' data-category={props.date}>
                         <div className='cards__item__image' style={{backgroundImage: 'url('+props.src+')'}} />
                     </figure>
