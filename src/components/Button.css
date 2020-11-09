@@ -8,7 +8,7 @@
     outline: none;
     border: none;
     cursor: pointer;
-    font-family: 'Acumin Variable Concept';
+    font-family: 'Acumin Variable Concept', 'PT Sans', sans-serif;
     font-variation-settings: "wght" 240, "wdth" 100, "opsz" 33;
   }
   

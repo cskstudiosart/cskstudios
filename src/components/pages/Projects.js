@@ -6,7 +6,13 @@ function Projects() {
     Title('Projects');
     return (
         <>
-            <h1 className='projects'>PROJECTS</h1>
+            <div className='cards'>
+                <div className='cards__container'>
+                    <div className='cards__wrapper'>
+                        <h2>Coming soon..</h2>
+                    </div>
+                </div>
+            </div>
         </>
     );
 };
