@@ -76,6 +76,40 @@
     line-height: 24px;
 }
 
+.backdrop-close-icon {
+    background-color: #1A1E25;
+    border: 2px solid #eeeeee;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    color: #eeeeee;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -10px;
+    margin-right: -10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.017));
+}
+
+.backdrop-close-icon:hover {
+    background-color: #eeeeee;
+    color: #1A1E25;
+    font-weight: bold;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.3);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.03));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.03));
+}
+
 @media screen and (max-width: 960px) {
     .backdrop-image {
         min-width: auto;

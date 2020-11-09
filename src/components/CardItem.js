@@ -43,6 +43,9 @@ export function CardImage(props) {
                                 <h5 className='backdrop-item-text'>{props.name}</h5>
                             </div>
                         </div>
+                        <div className='backdrop-close-icon' onClick={() => {isetButton(false)}}>
+                            x
+                        </div>
                     </div>
                 </div>
             )
@@ -65,10 +68,6 @@ export function CardImage(props) {
                 </div>
                 {ibutton && <ImageViewerBlock boole={ibutton} name={props.name} src={props.src} date={props.date} />}
             </li>
-
-            <div className='backdrop-close-icon'>
-                x
-            </div>
         </>
     )
 }
