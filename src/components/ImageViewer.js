@@ -5,12 +5,16 @@ import './ImageViewer.css';
 export const ImageViewer = ({id, boole, name, src, date, path}) => {
     const [asd, setAsd] = useState(boole);
 
-    const closeImg = () => setAsd(false);
+    const closeImg = (e) => {
+        if(e.target.classList.contains('backdrop-container')){
+            setAsd(false);
+        }
+    }
 
     const ImageViewerBlock = () => {
         if(asd == true) {
             return (
-                <div className='backdrop-container' onClick={() => setAsd(false)}>
+                <div className='backdrop-container' onClick={closeImg}>
                     <div className='backdrop-wrap'>
                         <div className='backdrop-item'>
                             <figure className='backdrop-item-pic-wrap' data-category={date}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import CardImage from './CardItem';
+import { CardImage } from './CardItem';
 import './Cards.css';
 
 function HandDrawingCards() {

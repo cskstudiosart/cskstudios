@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import { ImageViewer } from './ImageViewer';
 import './ImageViewer.css';
 
 function CardItem(propse) {
@@ -20,49 +19,43 @@ function CardItem(propse) {
     )
 }
 
-// Galériában kategórián belül kilistázott kép elem
-// A lényeg, h nem Link van kattintásra, mint egy sima csepménél (CardItem), hanem fügvény
-/*function ShowImage(currimg) {
-    return (
-        <ImageViewer
-            name={currimg.name}
-            src={currimg.src}
-            date={currimg.date}
-        />
-        /*ImageViewer(
-            currimg.id,
-            currimg.name,
-            currimg.src,
-            currimg.date,
-            currimg.path
-        )*/
-        /*+console.log(currimg.src)
-    )
-}
-
-const [click, setClick] = useState(false);
-const [button, setButton] = useState(true);
-
-const handleClick = () => setClick(!click);
-const closeMobileMenu = () => setClick(false);
-
-const showButton = () => {
-    if(window.innerWidth <= 960) {
-        setButton(false);
-    } else {
-        setButton(true);
-    }
-};*/
-
-function CardImage(props) {
+export function CardImage(props) {
     const [ibutton, isetButton] = useState(false);
 
+    // háttérre kattintva bezárja a megnyitott képet
+    const closeImg = (e) => {
+        if(e.target.classList.contains('backdrop-container')){
+            isetButton(false);
+        }
+    }
+
+    // megnyitott kép block
+    const ImageViewerBlock = () => {
+        if(ibutton == true) {
+            return (
+                <div className='backdrop-container' onClick={closeImg}>
+                    <div className='backdrop-wrap'>
+                        <div className='backdrop-item'>
+                            <figure className='backdrop-item-pic-wrap' data-category={props.date}>
+                                <img className='backdrop-image' alt={props.name} src={props.src} />
+                            </figure>
+                            <div className='backdrop-item-info'>
+                                <h5 className='backdrop-item-text'>{props.name}</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )
+        } else {
+            return(ibutton)
+        }
+    }
+
+    // képek csempéi
     return (
         <>
-            <li className='cards__item' onClick={() => {!ibutton ? isetButton(true) : isetButton(false)}}>
-                {/*<div className='cards__item__link' to={props.path} onClick={ShowImage('1')}>*/}
-                <div className='cards__item__link' >
-                    {/*ShowImage(props)*/}
+            <li className='cards__item'>
+                <div className='cards__item__link' onClick={() => {isetButton(true)}}>
                     <figure className='cards__item__pic-wrap' data-category={props.date}>
                         <div className='cards__item__image' style={{backgroundImage: 'url('+props.src+')'}} />
                     </figure>
@@ -70,10 +63,14 @@ function CardImage(props) {
                         <h5 className='cards__item__text'>{props.name}</h5>
                     </div>
                 </div>
-                {ibutton && <ImageViewer boole={ibutton} name={props.name} src={props.src} date={props.date} />}
+                {ibutton && <ImageViewerBlock boole={ibutton} name={props.name} src={props.src} date={props.date} />}
             </li>
+
+            <div className='backdrop-close-icon'>
+                x
+            </div>
         </>
     )
 }
 
-export default CardImage;
+export default CardItem;
