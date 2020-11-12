@@ -110,6 +110,48 @@
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.03));
 }
 
+/* navigation */
+.backdrop-nav-left, .backdrop-nav-right {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+}
+
+.backdrop-nav-left {
+    left: 0;
+}
+
+.backdrop-nav-right {
+    right: 0;
+}
+
+.backdrop-nav-left-icon, .backdrop-nav-right-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 30%;
+}
+
+.backdrop-nav-left-icon {
+    background-image: url('../images/left-arrow.png');
+}
+
+.backdrop-nav-right-icon {
+    background-image: url('../images/right-arrow.png');
+}
+
+.backdrop-nav-left-icon:hover, .backdrop-nav-right-icon:hover {
+    opacity: 100%;
+}
+/* navigation */
+
 @media screen and (max-width: 960px) {
     .backdrop-image {
         min-width: auto;

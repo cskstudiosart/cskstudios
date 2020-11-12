@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css';
 import Title from '../Title';
+import IllustrationCards from '../IllustrationCards';
 
 function Illustration() {
     Title('Illustration');
     return (
         <>
-            <h1>Illustration</h1>
+            <IllustrationCards />
         </>
     );
 };
