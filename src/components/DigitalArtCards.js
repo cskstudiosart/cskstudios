@@ -114,13 +114,13 @@ function DigitalArtCards() {
                             {
                             // navigáció 
                             currid > 0 &&
-                                <div className='backdrop-nav-left'>
-                                    <div className='backdrop-nav-left-icon' onClick={() => setCurrid(currid-1)}></div>
+                                <div className='backdrop-nav-left' onClick={() => setCurrid(currid-1)}>
+                                    <div className='backdrop-nav-left-icon'></div>
                                 </div>
                             }
                             {currid < (digitalart.length-1) &&
-                                <div className='backdrop-nav-right'>
-                                    <div className='backdrop-nav-right-icon' onClick={() => setCurrid(currid+1)}></div>
+                                <div className='backdrop-nav-right' onClick={() => setCurrid(currid+1)}>
+                                    <div className='backdrop-nav-right-icon'></div>
                                 </div>
                             // navifógéció vége
                             }
