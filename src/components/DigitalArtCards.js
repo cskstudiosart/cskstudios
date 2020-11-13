@@ -82,6 +82,12 @@ function DigitalArtCards() {
             cname: 'Freddie Mercury',
             cdate: '2019.07.29.',
             ctext: '',
+        },
+        {
+            cid: 13,
+            cname: 'Night Landscape',
+            cdate: '2019.10.10.',
+            ctext: '',
         }
     ]
 
