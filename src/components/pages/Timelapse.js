@@ -6,7 +6,13 @@ function Timelapse() {
     Title('Timelapse');
     return (
         <>
-            <h1>Timelapse</h1>
+            <div className='cards'>
+                <div className='cards__container'>
+                    <div className='cards__wrapper'>
+                        <h2>No timelapse have been made yet.</h2>
+                    </div>
+                </div>
+            </div>
         </>
     );
 };
