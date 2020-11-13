@@ -124,6 +124,18 @@ function ModellingCards() {
             cname: 'Train in Winter - 2',
             cdate: '2020.02.04.',
             ctext: '',
+        },
+        {
+            cid: 20,
+            cname: 'Living Room - 1',
+            cdate: '2020.04.08.',
+            ctext: '',
+        },
+        {
+            cid: 21,
+            cname: 'Living Room - 2',
+            cdate: '2020.04.08.',
+            ctext: '',
         }
     ]
 
