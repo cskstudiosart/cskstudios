@@ -70,24 +70,26 @@ function IllustrationCards() {
                             <div className='backdrop-item'>
                                 <figure className='backdrop-item-pic-wrap' data-category={handdrawings[currid].cdate}>
                                     <img className='backdrop-image' alt={handdrawings[currid].cname} src={'images/illustration/img-illustration-'+handdrawings[currid].cid+'.jpg'} />
+                                    <div className='backdrop-nav-container'>
+                                        {
+                                        // navigáció 
+                                        currid > 0 &&
+                                            <div className='backdrop-nav-left' onClick={() => setCurrid(currid-1)}>
+                                                <div className='backdrop-nav-left-icon'></div>
+                                            </div>
+                                        }
+                                        {currid < (handdrawings.length-1) &&
+                                            <div className='backdrop-nav-right' onClick={() => setCurrid(currid+1)}>
+                                                <div className='backdrop-nav-right-icon'></div>
+                                            </div>
+                                        // navifógéció vége
+                                        }
+                                    </div>
                                 </figure>
                                 <div className='backdrop-item-info'>
                                     <h5 className='backdrop-item-text'>{handdrawings[currid].cname}</h5>
                                 </div>
                             </div>
-                            {
-                            // navigáció 
-                            currid > 0 &&
-                                <div className='backdrop-nav-left' onClick={() => setCurrid(currid-1)}>
-                                    <div className='backdrop-nav-left-icon'></div>
-                                </div>
-                            }
-                            {currid < (handdrawings.length-1) &&
-                                <div className='backdrop-nav-right' onClick={() => setCurrid(currid+1)}>
-                                    <div className='backdrop-nav-right-icon'></div>
-                                </div>
-                            // navifógéció vége
-                            }
                             <div className='backdrop-close-icon' onClick={() => {isetButton(false)}}>
                                 x
                             </div>

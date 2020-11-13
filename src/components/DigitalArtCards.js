@@ -106,24 +106,26 @@ function DigitalArtCards() {
                             <div className='backdrop-item'>
                                 <figure className='backdrop-item-pic-wrap' data-category={digitalart[currid].cdate}>
                                     <img className='backdrop-image' alt={digitalart[currid].cname} src={'images/digitalart/img-digitalart-'+digitalart[currid].cid+'.jpg'} />
+                                    <div className='backdrop-nav-container'>
+                                        {
+                                        // navigáció 
+                                        currid > 0 &&
+                                            <div className='backdrop-nav-left' onClick={() => setCurrid(currid-1)}>
+                                                <div className='backdrop-nav-left-icon'></div>
+                                            </div>
+                                        }
+                                        {currid < (digitalart.length-1) &&
+                                            <div className='backdrop-nav-right' onClick={() => setCurrid(currid+1)}>
+                                                <div className='backdrop-nav-right-icon'></div>
+                                            </div>
+                                        // navifógéció vége
+                                        }
+                                    </div>
                                 </figure>
                                 <div className='backdrop-item-info'>
                                     <h5 className='backdrop-item-text'>{digitalart[currid].cname}</h5>
                                 </div>
                             </div>
-                            {
-                            // navigáció 
-                            currid > 0 &&
-                                <div className='backdrop-nav-left' onClick={() => setCurrid(currid-1)}>
-                                    <div className='backdrop-nav-left-icon'></div>
-                                </div>
-                            }
-                            {currid < (digitalart.length-1) &&
-                                <div className='backdrop-nav-right' onClick={() => setCurrid(currid+1)}>
-                                    <div className='backdrop-nav-right-icon'></div>
-                                </div>
-                            // navifógéció vége
-                            }
                             <div className='backdrop-close-icon' onClick={() => {isetButton(false)}}>
                                 x
                             </div>
