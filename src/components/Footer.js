@@ -74,6 +74,9 @@ function Footer() {
                         <a href='https://instagram.com/csakany97' target='_blank' aria-label='Instagram' className='social-icon-link instagram'>
                             <i className='fab fa-instagram' />
                         </a>
+                        <a href='https://discord.gg/qkkMRdvNCd' target='_blank' aria-label='Discord' className='social-icon-link discord'>
+                            <i className='fab fa-discord' />
+                        </a>
                         <a href='https://www.youtube.com/channel/UCv9jtH_mvPAJvELDrGCPMKQ/featured' target='_blank' aria-label='Youtube' className='social-icon-link youtube'>
                             <i className='fab fa-youtube' />
                         </a>
