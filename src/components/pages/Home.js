@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
-import Cards from '../Cards';
 import Title from '../Title';
 import ContactSection from '../ContactSection';
+import SocialSection from '../SocialSection';
 
 function Home() {
     Title('Home');
@@ -11,7 +11,7 @@ function Home() {
         <>
             <HeroSection />
             <ContactSection />
-            <Cards />
+            <SocialSection />
         </>
     );
 };
