@@ -1,6 +1,6 @@
 import React from 'react';
-import CardItem from './CardItem';
-import './Cards.css';
+import GaleryCardItem from './GaleryCardItem';
+import './GaleryCards.css';
 
 function GaleryCards() {
     let categories = [
@@ -42,13 +42,13 @@ function GaleryCards() {
         }
     ]
     return (
-        <div className='cards'>
-            <div className='cards__container'>
-                <div className='cards__wrapper'>
-                    <ul className='cards__items'>
+        <div className='gcards'>
+            <div className='gcards__container'>
+                <div className='gcards__wrapper'>
+                    <ul className='gcards__items'>
                         {
                             categories.sort((a, b) => a.cid > b.cid ? 1:-1).map((category) => // .sort(itt állítjuk be a sorolást, pl id szerint).map(itt hozzuk létre a felsorolást)
-                                <CardItem
+                                <GaleryCardItem
                                 src={'images/galery-cover-'+category.cid+'.jpg'}
                                 text={category.ctext}
                                 label={category.clabel}

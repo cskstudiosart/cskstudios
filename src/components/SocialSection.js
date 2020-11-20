@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 import './SocialSection.css';
 
 function SMItem(propse) {

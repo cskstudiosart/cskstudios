@@ -23,22 +23,25 @@ function Footer() {
                     </form>
                 </div>
             </section>
+            */}
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
                         <h2>About Us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>Investors</Link>
-                        <Link to='/'>Terms of Service</Link>
+                        <Link to='/sign-up'>Home</Link>
+                        <Link to='/'>About</Link>
+                        <Link to='/'>Galery</Link>
+                        <Link to='/'>Projects</Link>
+                        <Link to='/'>Contact</Link>
                     </div>
                     <div class='footer-link-items'>
-                        <h2>Contact Us</h2>
-                        <Link to='/'>Contact</Link>
-                        <Link to='/'>Support</Link>
-                        <Link to='/'>Destinations</Link>
-                        <Link to='/'>Sponsorships</Link>
+                        <h2>Galery</h2>
+                        <Link to='/'>Hand drawing</Link>
+                        <Link to='/'>Digital art</Link>
+                        <Link to='/'>Illustration</Link>
+                        <Link to='/'>Modelling</Link>
+                        <Link to='/'>Animation</Link>
+                        <Link to='/'>Timelapse</Link>
                     </div>
                     </div>
                     <div className='footer-link-wrapper'>
@@ -57,7 +60,7 @@ function Footer() {
                         <Link to='/'>Twitter</Link>
                     </div>
                 </div>
-            </div>*/}
+            </div>
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>

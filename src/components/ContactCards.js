@@ -4,11 +4,11 @@ import './ContactCards.css';
 
 function ContactCards() {
     return (
-        <div className='cards'>
-            <div className='cards__container'>
-                <div className='cards__wrapper'>
+        <div className='c_cards'>
+            <div className='c_cards__container'>
+                <div className='c_cards__wrapper'>
                     <h2>Contact us directly</h2>
-                    <ul className='cards__items'>
+                    <ul className='c_cards__items'>
                         <ContactItem
                         text='Write a message by e-mail:'
                         text_data='cs.k.studios.art@gmail.com'
@@ -25,8 +25,8 @@ function ContactCards() {
                 </div>
             </div>
 
-            <div className='cards__container'>
-                <div className='cards__wrapper'>
+            <div className='c_cards__container'>
+                <div className='c_cards__wrapper'>
                     <h2>Or follow me on social media</h2>
                     <ul className='cards__items'>
                         <SocialMediaItem
