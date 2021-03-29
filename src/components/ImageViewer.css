@@ -20,13 +20,13 @@
 }
 
 .backdrop-item {
-    background-color: #eeeeee;
+    background-color: #ffffff;
     width: 100%;
-    border: 2px solid #eeeeee;
+    /*border: 2px solid #eeeeee;*/
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.017));
     filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.017));
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     overflow: hidden;
     text-decoration: none;
 }
@@ -106,7 +106,7 @@
     background-color: #eeeeee;
     color: #1A1E25;
     font-weight: bold;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.3);
+    box-shadow: 0 6px 20px rgba(34, 40, 49, 0.3);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.03));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.03));
 }
