@@ -2,7 +2,7 @@
   .s_cards {
     padding: 4rem 4rem;
     background: #eeeeee;
-    height: 100vh;
+    height: calc(100vh - 80px);
     max-height: 1171px;
   }
   
@@ -32,6 +32,7 @@
 
   .s_cards__wrapper > h2 {
     color: #222831;
+    font-size: 34px;
     font-variation-settings: "wght" 130, "wdth" 100, "opsz" 33;
   }
 
@@ -168,7 +169,7 @@
     }
   }
 
-  @media screen and (max-height: 800px) and (orientation: landscape) {
+  @media screen and (max-height: 900px) and (orientation: landscape) {
     .s_cards {
         height: auto;
         max-height: max-content;

@@ -7,9 +7,12 @@
     text-align: center;
   }
 
-  h2 {
+  .c_cards__wrapper > h2 {
       text-align: left;
       margin: 0 1rem 2rem 1rem;
+      color: #222831;
+      font-size: 32px;
+      font-variation-settings: "wght" 130, "wdth" 100, "opsz" 33;
   }
   
   .c_cards__container {

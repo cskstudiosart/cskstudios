@@ -1,5 +1,5 @@
 .contact_section {
-    padding: 2rem 4rem;
+    padding: 0rem 4rem;
     background-position: top center;
     background-repeat: repeat-x;
     background-attachment: fixed;
@@ -10,7 +10,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 80px);
     max-height: 1171px;
     max-width: 1120px;
     width: 90%;
@@ -75,9 +75,13 @@
   }
 
   @media screen and (max-height: 1119px) {
+    .contact_section__wrapper {
+        margin-top: 4rem;
+    }
+
     .contact_section__img {
-        height: 28rem;
-        margin-top: 2.5rem;
+        height: 22rem;
+        margin-top: 2rem;
     }
 
     .contact_section__mail > h2, .contact_section__phone > h2 {
@@ -91,8 +95,8 @@
 
   @media screen and (max-height: 935px) {
     .contact_section__img {
-        height: 22rem;
-        margin-top: 2rem;
+        height: 20rem;
+        /*margin-top: 2rem;*/
     }
 
     .contact_section__mail > h2, .contact_section__phone > h2 {

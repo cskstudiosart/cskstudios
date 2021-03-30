@@ -11,11 +11,11 @@ function Home() {
     Title('Home');
     return (
         <>
-            <HeroSection />
-            <GaleryCards />
-            <BioSection />
-            <ContactSection />
-            <SocialSection />
+            <section><HeroSection /></section>
+            <section><GaleryCards /></section>
+            <section><BioSection /></section>
+            <section><ContactSection /></section>
+            <section><SocialSection /></section>
         </>
     );
 };
