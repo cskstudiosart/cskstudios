@@ -4,10 +4,10 @@ import './SocialSection.css';
 function SMItem(propse) {
     return (
         <>
-            <li className='scards__item'>
-                <a href={propse.href} target='_blank' className='scards__item__link' to={propse.path}>
-                    <figure className='scards__item__pic-wrap' data-category={propse.label}>
-                        <div className='scards__item__image' style={{backgroundImage: 'url(images/contact/banner-'+propse.path+'.jpg)'}} />
+            <li className='s_cards__item'>
+                <a href={propse.href} target='_blank' className='s_cards__item__link' to={propse.path}>
+                    <figure className='s_cards__item__pic-wrap' data-category={propse.label}>
+                        <div className='s_cards__item__image' style={{backgroundImage: 'url(images/contact/banner-'+propse.path+'.jpg)'}} />
                     </figure>
                 </a>
             </li>
@@ -18,11 +18,11 @@ function SMItem(propse) {
 function SocialSection() {
     return (
         <>
-            <div className='scards'>
-                <div className='scards__container'>
-                    <div className='scards__wrapper'>
-                        <h2>Or follow me on social media</h2>
-                        <ul className='scards__items'>
+            <div className='s_cards'>
+                <div className='s_cards__container'>
+                    <div className='s_cards__wrapper'>
+                        <h2>Vagy kövessen be</h2>
+                        <ul className='s_cards__items'>
                             <SMItem
                             label='Facebook'
                             path='facebook'

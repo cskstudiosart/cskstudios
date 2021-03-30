@@ -6,37 +6,37 @@ function GaleryCards() {
     let categories = [
         {
             cid: '0', // id
-            ctext: 'Handmade on real paper', // rövid leírás
-            clabel: 'Hand drawing', //név
+            ctext: 'Kézzel készült, igazi papírra', // rövid leírás
+            clabel: 'Kézi rajzok', //név
             cpath: 'handdrawing' // hivatkozási cím
         },
         {
             cid: '1',
-            ctext: 'Made with a drawing tablet',
-            clabel: 'Digital art',
+            ctext: 'Digitalizáló táblával készítve',
+            clabel: 'Digital Art',
             cpath: 'digitalart'
         },
         {
             cid: '2',
-            ctext: 'Digital illustrations, logos',
-            clabel: 'Illustration',
+            ctext: 'Digitális illusztrációk, logók',
+            clabel: 'Illusztrációk',
             cpath: 'illustration'
         },
         {
             cid: '3',
-            ctext: '3D modelling, sculpting, texturing with Blender / Solid Edge, KeyShot',
-            clabel: 'Modelling',
+            ctext: '3D modellezés, szobrászat Blender és Solid Edge segítségével',
+            clabel: 'Modellezés',
             cpath: 'modelling'
         },
         {
             cid: '4',
-            ctext: '2D and 3D animations, short films',
-            clabel: 'Animation',
+            ctext: '2D és 3D animációk, kisfilmek',
+            clabel: 'Animációk',
             cpath: 'animation'
         },
         {
             cid: '5',
-            ctext: 'Timelapse of my drawing, modelling',
+            ctext: 'Timelapse munka közben',
             clabel: 'Timelapse',
             cpath: 'timelapse'
         }
