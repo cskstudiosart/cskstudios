@@ -10,6 +10,8 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+    height: 100vh;
+    max-height: 1171px;
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
@@ -21,6 +23,9 @@
     width: 100%;
     display: flex;
     align-items: center;
+    flex-flow: column;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
   }
 
   .contact_section__img {
@@ -28,26 +33,31 @@
       background-position: center center;
       background-size: contain;
       background-repeat: no-repeat;
-      width: 32rem;
-      height: 22rem;
-      margin-left: 4rem;
+      width: 100%;
+      height: 38rem;
+      margin-top: 4rem;
   }
 
   .contact_section__data {
       position: relative;
       width: 100%;
-      padding: 3rem 4rem;
+      padding: 5rem 4rem 3rem 4rem;
       display: flex;
       flex-direction: column;
+      align-items: center;
   }
 
   .contact_section__mail, .contact_section__phone {
-      padding: 1.2rem 0;
+      padding: 1.4rem 0;
       width: 100%;
+      width: auto;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
   }
 
   .contact_section__mail > h2, .contact_section__phone > h2 {
-      font-size: 34px;
+      font-size: 42px;
       font-variation-settings: "wght" 180, "wdth" 100, "opsz" 33;
       line-height: 44px;
       margin: 0;
@@ -56,7 +66,7 @@
   }
 
   .contact_section__data_bold {
-      font-size: 28px;
+      font-size: 32px;
       font-variation-settings: "wght" 350, "wdth" 100, "opsz" 33;
       font-weight: bold;
       margin-left: 4rem;
@@ -64,7 +74,37 @@
       color: #393E46;
   }
 
-  @media screen and (max-width: 1205px) {
+  @media screen and (max-height: 1119px) {
+    .contact_section__img {
+        height: 28rem;
+        margin-top: 2.5rem;
+    }
+
+    .contact_section__mail > h2, .contact_section__phone > h2 {
+        font-size: 34px;
+    }
+
+    .contact_section__data_bold {
+        font-size: 28px;
+    }
+  }
+
+  @media screen and (max-height: 935px) {
+    .contact_section__img {
+        height: 22rem;
+        margin-top: 2rem;
+    }
+
+    .contact_section__mail > h2, .contact_section__phone > h2 {
+        font-size: 34px;
+    }
+
+    .contact_section__data_bold {
+        font-size: 28px;
+    }
+  }
+
+  @media screen and (max-width: 1205px) { 
       .contact_section__mail > h2, .contact_section__phone > h2 {
           font-size: 24px;
           line-height: 40px;
@@ -84,7 +124,7 @@
 
         .contact_section__img {
             width: 100%;
-            height: 300px;
+            height: 16rem;
             margin-left: 0;
         }
 
@@ -129,5 +169,11 @@
 
     .contact_section__data_bold {
         font-size: 20px;
+    }
+  }
+
+  @media screen and (max-height: 800px) and (orientation: landscape) {
+    .contact_section__container {
+        height: auto;
     }
   }

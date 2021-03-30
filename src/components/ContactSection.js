@@ -11,11 +11,11 @@ function ContactSection() {
                         <div className='contact_section__img' style={{backgroundImage: 'url(images/contact_section_banner.png)'}}></div>
                         <div className='contact_section__data'>
                             <div className='contact_section__mail'>
-                                <h2>Write a message by e-mail:</h2>
+                                <h2>Írjon bátran e-mail-ben</h2>
                                 <h2><b  className='contact_section__data_bold'>cs.k.studios.art@gmail.com</b></h2>
                             </div>
                             <div className='contact_section__phone'>
-                                <h2>Or call by phone:</h2>
+                                <h2>Vagy akár kereshet telefonon is</h2>
                                 <h2><b  className='contact_section__data_bold'>+36/70-550-26-43</b></h2>
                             </div>
                         </div>

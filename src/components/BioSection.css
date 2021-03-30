@@ -3,6 +3,7 @@
     padding: 4rem 4rem;
     background: #222831;
     height: 100vh;
+    max-height: 1171px;
     font-family: "Acumin Variable Concept", 'PT Sans', sans-serif;
     background: center center/cover no-repeat scroll;
   }
@@ -12,7 +13,7 @@
       margin: 0 1rem 3rem 1rem;
       color: #eeeeee;
       text-transform: uppercase;
-      font-size: 42px;
+      font-size: 48px;
       font-variation-settings: "wght" 100, "wdth" 100, "opsz" 33;
   }
   
@@ -20,7 +21,7 @@
       text-align: left;
       margin: 0 1rem 3rem 1rem;
       color: #eeeeee;
-      font-size: 26px;
+      font-size: 32px;
       font-variation-settings: "wght" 100, "wdth" 100, "opsz" 33;
       max-width: 45%;
   }
@@ -162,15 +163,61 @@
       line-height: 30px;
   }
   
+  @media screen and (max-height: 1119px) {
+    h2 {
+      font-size: 42px;
+    }
+
+    h3 {
+      font-size: 26px;
+    }
+  }
+
   @media only screen and (min-width: 1200px) {
     .scontent__blog__container {
       width: 84%;
     }
   }
   
-  @media only screen and (min-width: 961px) {
+  @media only screen and (max-width: 961px) {
     .scards__items {
       display: flex;
+    }
+
+    h2 {
+      font-size: 34px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    .bio_block {
+      height: auto;
+    }
+
+    .bio_container {
+      padding-top: 0;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    h3 {
+      font-size: 22px;
+      text-align: justify;
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-height: 800px) and (orientation: landscape) {
+    .bio_block {
+        height: auto;
+        padding-top: 0rem;
+        background-position-x: 70%;
     }
   }
   
