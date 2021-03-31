@@ -8,6 +8,14 @@
 
   :root {
     --currheight: 100vh;
+    scroll-snap-type: y mandatory; /* ennek köszönhetően húzza szekcióhoz a scroll-t */
+    overflow-y: scroll; /* ennek köszönhetően van scroll */
+    scroll-padding: 80px; /* ez állítja be, h egy menüsávnyit eltolva kezdje a szekciót */
+  }
+  
+  section {
+    height: auto;
+    scroll-snap-align: start; /* ennek köszönhetően húzza a scroll-t a szekció kezdetéhez/végéhez */
   }
 
   @import url(//db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept);
@@ -19,16 +27,10 @@
     url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.ttf") format("truetype"), 
     url("//db.onlinewebfonts.com/t/066ce24dae3730ed6c648b09efaea93a.svg#Acumin Variable Concept") format("svg"); }
 
+
   body {
     background-color: #eeeeee;
     color: #1A1E25;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-  }
-
-  section {
-    height: auto;
-    scroll-snap-align: start;
   }
 
   .content-body {
