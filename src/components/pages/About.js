@@ -1,13 +1,14 @@
 import React from 'react';
 import '../../App.css';
 import Title from '../Title';
+import AboutBody from '../About';
 
 function About() {
     Title('About');
     return (
         <>
             <section>
-            <h1 className='about'>ABOUT</h1>
+            <AboutBody />
             </section>
         </>
     );

@@ -1,0 +1,84 @@
+.about {
+    padding: 4rem 4rem;
+    color: #eeeeee;
+    min-height: calc(100vh - 80px);
+    background: #222831 url('../images/about-bg.jpg') top right/cover no-repeat scroll;
+    background-size: 80%;
+  }
+  
+  .about__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .about__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+    width: 100%;
+  }
+
+  .about__wrapper > h2 { /* címek */
+    text-align: left;
+    margin: 2rem 1rem 3rem 1rem;
+    color: #eeeeee;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-variation-settings: "wght" 100, "wdth" 100, "opsz" 33;
+  }
+
+  .about__wrapper > h3 { /*sima szöveg */
+    text-align: left;
+    margin: 0 1rem 3rem 1rem;
+    color: #eeeeee;
+    font-size: 32px;
+    font-variation-settings: "wght" 100, "wdth" 100, "opsz" 33;
+  }
+
+  @media screen and (max-height: 1119px) {
+    .about__wrapper > h2 {
+      font-size: 42px;
+    }
+
+    .about__wrapper > h3 {
+      font-size: 26px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .gcontent__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (max-width: 961px) {
+    .about__wrapper > h2 {
+      font-size: 34px;
+    }
+  
+    .about__wrapper > h3 {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 415px) {
+    .about {
+      height: auto;
+    }
+
+    .about__container {
+      padding-top: 0;
+    }
+
+    .about__wrapper > h2 {
+      font-size: 28px;
+    }
+
+    .bio_wrapper > h3 {
+      font-size: 22px;
+      /*text-align: justify;*/
+    }
+  }
