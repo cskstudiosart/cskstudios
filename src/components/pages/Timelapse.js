@@ -6,6 +6,7 @@ function Timelapse() {
     Title('Timelapse');
     return (
         <>
+            <section>
             <div className='cards'>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
@@ -13,6 +14,7 @@ function Timelapse() {
                     </div>
                 </div>
             </div>
+            </section>
         </>
     );
 };

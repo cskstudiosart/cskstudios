@@ -7,7 +7,9 @@ function Contact() {
     Title('Contact');
     return (
         <>
+            <section>
             <ContactCards />
+            </section>
         </>
     );
 };

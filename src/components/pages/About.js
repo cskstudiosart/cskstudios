@@ -6,7 +6,9 @@ function About() {
     Title('About');
     return (
         <>
+            <section>
             <h1 className='about'>ABOUT</h1>
+            </section>
         </>
     );
 };

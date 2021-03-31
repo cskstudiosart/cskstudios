@@ -27,41 +27,32 @@ function Footer() {
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/sign-up'>Home</Link>
-                        <Link to='/'>About</Link>
-                        <Link to='/'>Galery</Link>
-                        <Link to='/'>Projects</Link>
-                        <Link to='/'>Contact</Link>
+                        <h2>Továbbiak</h2>
+                        <Link to='/sign-up'>Kezdölap</Link>
+                        <Link to='/'>Rólam</Link>
+                        <Link to='/'>Galéria</Link>
+                        <Link to='/'>Projektek</Link>
+                        <Link to='/'>Kapcsolat</Link>
                     </div>
                     <div class='footer-link-items'>
-                        <h2>Galery</h2>
-                        <Link to='/'>Hand drawing</Link>
-                        <Link to='/'>Digital art</Link>
-                        <Link to='/'>Illustration</Link>
-                        <Link to='/'>Modelling</Link>
-                        <Link to='/'>Animation</Link>
+                        <h2>Galéria</h2>
+                        <Link to='/'>Kézi rajzok</Link>
+                        <Link to='/'>Digital Art</Link>
+                        <Link to='/'>Illusztrációk</Link>
+                        <Link to='/'>Modellezés</Link>
+                        <Link to='/'>Animációk</Link>
                         <Link to='/'>Timelapse</Link>
                     </div>
-                    </div>
-                    <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
-                        <h2>Videos</h2>
-                        <Link to='/'>Submit Video</Link>
-                        <Link to='/'>Ambassadors</Link>
-                        <Link to='/'>Agency</Link>
-                        <Link to='/'>Influencer</Link>
-                    </div>
-                    <div class='footer-link-items'>
-                        <h2>Social Media</h2>
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Facebook</Link>
-                        <Link to='/'>Youtube</Link>
-                        <Link to='/'>Twitter</Link>
+                        <h2>Elérhetöség</h2>
+                        <h3>Telefon:</h3>
+                        <h3>+36/705502643</h3>
+                        <h3>E-mail:</h3>
+                        <h3>cs.k.studios.art@gmail.com</h3>
                     </div>
                 </div>
             </div>
-            <section className='social-media'>
+            <div className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
@@ -88,7 +79,7 @@ function Footer() {
                         </a>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     )
 }

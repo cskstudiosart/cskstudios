@@ -42,7 +42,7 @@ function GaleryCards() {
         }
     ]
     return (
-        <div className='gcards' id="galerycards">
+        <div className='gcards'>
             <div className='gcards__container'>
                 <div className='gcards__wrapper'>
                     <ul className='gcards__items'>

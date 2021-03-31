@@ -7,7 +7,9 @@ function HandDrawing() {
     Title('Hand Drawing');
     return (
         <>
+            <section>
             <HandDrawingCards />
+            </section>
         </>
     );
 };

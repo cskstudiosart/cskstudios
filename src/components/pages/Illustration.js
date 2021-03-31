@@ -7,7 +7,9 @@ function Illustration() {
     Title('Illustration');
     return (
         <>
+            <section>
             <IllustrationCards />
+            </section>
         </>
     );
 };

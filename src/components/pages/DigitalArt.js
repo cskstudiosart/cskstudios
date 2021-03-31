@@ -7,7 +7,9 @@ function DigitalArt() {
     Title('Digital Art');
     return (
         <>
+            <section>
             <DigitalArtCards />
+            </section>
         </>
     );
 };

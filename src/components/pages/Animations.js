@@ -6,6 +6,7 @@ function Animations() {
     Title('Animation');
     return (
         <>
+            <section>
             <div className='cards'>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
@@ -13,6 +14,7 @@ function Animations() {
                     </div>
                 </div>
             </div>
+            </section>
         </>
     );
 };

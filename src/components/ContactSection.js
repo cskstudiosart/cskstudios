@@ -5,7 +5,7 @@ import './ContactSection.css';
 function ContactSection() {
     return (
         <>
-            <div className='contact_section' id="contactsection" style={{backgroundImage: 'url(images/contact_section_banner_bg.png)'}}>
+            <div className='contact_section' style={{backgroundImage: 'url(images/contact_section_banner_bg.png)'}}>
                 <div className='contact_section__container'>
                     <div className='contact_section__wrapper'>
                         <div className='contact_section__img' style={{backgroundImage: 'url(images/contact_section_banner.png)'}}></div>

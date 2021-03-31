@@ -7,7 +7,9 @@ function Galery() {
     Title('Galery');
     return (
         <>
+            <section>
             <GaleryCards />
+            </section>
         </>
     );
 };

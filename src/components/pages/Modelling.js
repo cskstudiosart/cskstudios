@@ -7,7 +7,9 @@ function Modelling() {
     Title('Modelling');
     return (
         <>
+            <section>
             <ModellingCards />
+            </section>
         </>
     );
 };

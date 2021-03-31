@@ -18,7 +18,7 @@ function SMItem(propse) {
 function SocialSection() {
     return (
         <>
-            <div className='s_cards' id="socialsection">
+            <div className='s_cards'>
                 <div className='s_cards__container'>
                     <div className='s_cards__wrapper'>
                         <h2>Vagy kövessen be</h2>

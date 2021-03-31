@@ -5,7 +5,7 @@ import './BioSection.css';
 function BioSection() {
     return (
         <>
-            <div className='bio_block' id="biosection" style={{backgroundImage: 'url(images/bio_section_banner_bg.jpg)'}}>
+            <div className='bio_block' style={{backgroundImage: 'url(images/bio_section_banner_bg.jpg)'}}>
                 <div className='bio_container'>
                     <div className='bio_wrapper'>
                         <h2>Rólam röviden</h2>

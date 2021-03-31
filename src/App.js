@@ -42,7 +42,9 @@ function App() {
             <Route path='/sign-up' component={SignUp} />
           </Switch>
         </div>
-        <Footer />
+        <section style={{backgroundColor: '#222831'}}>
+          <Footer />
+        </section>
       </Router>
     </>
   );
