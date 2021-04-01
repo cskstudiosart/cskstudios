@@ -60,7 +60,7 @@ function Footer() {
                             Studios
                         </Link>
                     </div>
-                    <small className='website-rights'>Cs.K. Studios © 2020</small>
+                    <small className='website-rights'>Cs.K. Studios © 2021</small>
                     <div className='social-icons'>
                         <a href='https://facebook.com/csakany97' target='_blank' aria-label='Facebook' className='social-icon-link facebook'>
                             <i className='fab fa-facebook-f' />
