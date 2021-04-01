@@ -28,7 +28,7 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
                         <h2>Továbbiak</h2>
-                        <Link to='/sign-up'>Kezdölap</Link>
+                        <Link to='/sign-up'>Kezdőlap</Link>
                         <Link to='/'>Rólam</Link>
                         <Link to='/'>Galéria</Link>
                         <Link to='/'>Projektek</Link>
@@ -44,7 +44,7 @@ function Footer() {
                         <Link to='/'>Timelapse</Link>
                     </div>
                     <div class='footer-link-items'>
-                        <h2>Elérhetöség</h2>
+                        <h2>Elérhetőség</h2>
                         <h3>Telefon:</h3>
                         <h3>+36/705502643</h3>
                         <h3>E-mail:</h3>

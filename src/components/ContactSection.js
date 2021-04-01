@@ -15,7 +15,7 @@ function ContactSection() {
                                 <h2><b  className='contact_section__data_bold'>cs.k.studios.art@gmail.com</b></h2>
                             </div>
                             <div className='contact_section__phone'>
-                                <h2>Vagy akár kereshet telefonon is</h2>
+                                <h2>Vagy kereshet akár telefonon is</h2>
                                 <h2><b  className='contact_section__data_bold'>+36/70-550-26-43</b></h2>
                             </div>
                         </div>

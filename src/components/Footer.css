@@ -148,14 +148,14 @@
     font-size: 1.8rem;
     display: flex;
     align-items: center;
-    font-family: 'Acumin Variable Concept', 'PT Sans', sans-serif;
+    font-family: 'Acumin Variable Concept', Calibri, 'PT Sans', sans-serif;
     font-variation-settings: "wght" 180, "wdth" 100, "opsz" 33;
 }
 
 .website-rights {
     color: #eeeeee;
     margin-bottom: -6px;
-    font-family: 'Acumin Variable Concept', 'PT Sans', sans-serif;
+    font-family: 'Acumin Variable Concept', Calibri, 'PT Sans', sans-serif;
     font-variation-settings: "wght" 180, "wdth" 100, "opsz" 33;
 }
 

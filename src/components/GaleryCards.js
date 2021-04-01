@@ -24,7 +24,7 @@ function GaleryCards() {
         },
         {
             cid: '3',
-            ctext: '3D modellezés, szobrászat Blender és Solid Edge segítségével',
+            ctext: '3D modellezés Blender és Solid Edge segítségével',
             clabel: 'Modellezés',
             cpath: 'modelling'
         },

@@ -34,7 +34,7 @@
     color: #eeeeee;
     font-size: 92px;
     margin-top: -3.4rem;
-    font-family: 'Acumin Variable Concept', 'PT Sans', sans-serif;
+    font-family: 'Acumin Variable Concept', Calibri, 'PT Sans', sans-serif;
     font-variation-settings: "wght" 130, "wdth" 105, "opsz" 33;
     text-transform: uppercase;
 }
@@ -44,7 +44,7 @@
     color: #eeeeee;
     font-size: 33px;
     /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
-    font-family: 'Acumin Variable Concept', 'PT Sans', sans-serif;
+    font-family: 'Acumin Variable Concept', Calibri, 'PT Sans', sans-serif;
     font-variation-settings: "wght" 150, "wdth" 100, "opsz" 33;
     text-transform: uppercase;
 }

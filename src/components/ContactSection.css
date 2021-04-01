@@ -58,7 +58,7 @@
 
   .contact_section__mail > h2, .contact_section__phone > h2 {
       font-size: 42px;
-      font-variation-settings: "wght" 180, "wdth" 100, "opsz" 33;
+      font-variation-settings: "wght" 200, "wdth" 100, "opsz" 33;
       line-height: 44px;
       margin: 0;
       text-transform: uppercase;
@@ -67,7 +67,7 @@
 
   .contact_section__data_bold {
       font-size: 32px;
-      font-variation-settings: "wght" 350, "wdth" 100, "opsz" 33;
+      font-variation-settings: "wght" 400, "wdth" 100, "opsz" 33;
       font-weight: bold;
       margin-left: 4rem;
       text-transform: none;
