@@ -69,22 +69,30 @@
       font-size: 20px;
     }
   }
+
+  @media only screen and (max-width: 700px) {
+    .about__leftbox {
+      max-width: 100%;
+    }
+  }
   
   @media screen and (max-width: 415px) {
     .about {
       height: auto;
+      padding: 2rem 2rem;
     }
 
     .about__container {
       padding-top: 0;
+      width: 100%;
     }
 
     .about__wrapper > section > h2 {
-      font-size: 28px;
+      font-size: 24px;
     }
 
-    .bio_wrapper > section > h3 {
-      font-size: 22px;
-      /*text-align: justify;*/
+    .about__wrapper > section > h3 {
+      font-size: 16px;
+      text-align: justify;
     }
   }
