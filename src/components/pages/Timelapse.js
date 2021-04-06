@@ -10,7 +10,7 @@ function Timelapse() {
             <div className='cards'>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
-                        <h2>No timelapse have been made yet.</h2>
+                        <h2>Még nem készült egyetlen projekt sem a kategóriában.</h2>
                     </div>
                 </div>
             </div>

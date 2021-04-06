@@ -10,7 +10,7 @@ function Animations() {
             <div className='cards'>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
-                        <h2>Work in progress..</h2>
+                        <h2>Még nem készült egyetlen projekt sem a kategóriában.</h2>
                     </div>
                 </div>
             </div>

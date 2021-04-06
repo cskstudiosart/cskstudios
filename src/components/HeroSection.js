@@ -12,15 +12,15 @@ function HeroSection() {
                     <img src="images/logo-light.png" className="hero-img" />
                 </figure>
                 <h1>Studios</h1>
-                <p>We create the dreams</p>
-                <div className='hero-btns'>
+                <p>Alkotjuk az álmokat</p>
+                {/*<div className='hero-btns'>
                     <Button className='btns' href='/about' buttonStyle='btn--outline' buttonSize='btn--large'>
                         About
                     </Button>
                     <Button className='btns' href='/' buttonStyle='btn--primary' buttonSize='btn--large'>
                         WATCH TRAILER <i className='far fa-play-circle' />
                     </Button>
-                </div>
+                </div>*/}
             </div>
         </div>
     )

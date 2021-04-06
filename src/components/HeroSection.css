@@ -42,7 +42,7 @@
 .hero-container > p {
     margin-top: -14px;
     color: #eeeeee;
-    font-size: 33px;
+    font-size: 35px;
     /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
     font-family: 'Acumin Variable Concept', Calibri, 'PT Sans', sans-serif;
     font-variation-settings: "wght" 150, "wdth" 100, "opsz" 33;
@@ -92,6 +92,7 @@
 
     .hero-container > p {
         margin-top: -8px;
+        font-size: 28px;
     }
 
     .hero-btns {
@@ -121,7 +122,7 @@
     }
 
     .hero-container >p {
-        font-size: 20px;
+        font-size: 19px;
         margin-top: -8px;
     }
 }
@@ -156,6 +157,7 @@
 
     .hero-container > p {
         margin-top: 0;
+        font-size: 16px;
     }
 }
 

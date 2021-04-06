@@ -45,10 +45,10 @@ function Footer() {
                     </div>
                     <div class='footer-link-items'>
                         <h2>Elérhetőség</h2>
-                        <h3>Telefon:</h3>
-                        <h3>+36/705502643</h3>
                         <h3>E-mail:</h3>
                         <h3>cs.k.studios.art@gmail.com</h3>
+                        <h3>Telefon:</h3>
+                        <h3>+36/705502643</h3>
                     </div>
                 </div>
             </div>
