@@ -8,14 +8,14 @@
 
   :root {
     --currheight: 100vh;
-    scroll-snap-type: y mandatory; /* ennek köszönhetően húzza szekcióhoz a scroll-t */
-    overflow-y: scroll; /* ennek köszönhetően van scroll */
-    scroll-padding: 80px; /* ez állítja be, h egy menüsávnyit eltolva kezdje a szekciót */
+    /*scroll-snap-type: y mandatory; /* ennek köszönhetően húzza szekcióhoz a scroll-t */
+    /*overflow-y: scroll; /* ennek köszönhetően van scroll */
+    /*scroll-padding: 80px; /* ez állítja be, h egy menüsávnyit eltolva kezdje a szekciót */
   }
   
   section {
     height: auto;
-    scroll-snap-align: start; /* ennek köszönhetően húzza a scroll-t a szekció kezdetéhez/végéhez */
+    /*scroll-snap-align: start; /* ennek köszönhetően húzza a scroll-t a szekció kezdetéhez/végéhez */
   }
 
   @import url(//db.onlinewebfonts.com/c/066ce24dae3730ed6c648b09efaea93a?family=Acumin+Variable+Concept);
