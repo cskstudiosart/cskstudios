@@ -32,7 +32,7 @@ function AboutBody() {
                     <h3>Szerencsével jártam, még tartott a toborzás a Délalföldi Regionális Társadalomtudományi Kutatási Egyesülethez. Nem volt egyéb kritérium, csak az érettségi és a 25 év alatti korhatár. <br />
                     Felvettek és pár héten belül be is osztottak, bár webprogramozónak mentem volna, de grafikus lettem. <br />
                     Középiskola óta hobbi szerűen foglalkoztam webprogramozással, HTML, CSS, PHP, MySQL környezetekben, ezért volt bátorságom megpróbálkozni ebben a kategóriában. Viszont kiderült, hogy van érzékem a rajzoláshoz, így abban a pozícióban helyeztek el. <br />
-                    Még álltalános iskolában kiderült, hogy van egy kis tehetségem a képzőművészethez. Ekkor volt egy olyan tervem, hogy képzőművészeti gimnáziumba megyek, Zentára, de gyorsan elvetettük közös megegyezés alapján szüleimmel. Úgy gondoltuk bölcsebb lenne egy szakmát szerezni, hogyha valami miatt nem tudnék egyetemre menni középiskola után, legalább szakmai papírom legyen. <br />
+                    Még általános iskolában kiderült, hogy van egy kis tehetségem a képzőművészethez. Ekkor volt egy olyan tervem, hogy képzőművészeti gimnáziumba megyek, Zentára, de gyorsan elvetettük közös megegyezés alapján szüleimmel. Úgy gondoltuk bölcsebb lenne egy szakmát szerezni, hogyha valami miatt nem tudnék egyetemre menni középiskola után, legalább szakmai papírom legyen. <br />
                     Viszont most visszatért ez a tehetség, gyorsan kiderült az új munkahelyemen és használatba is vették.<br /><br /><br /></h3>
                     </section><section>
                     <h2>Garfikai pálya</h2>
