@@ -5,7 +5,7 @@ import './ImageViewer.css';
 
 function AnimationsCards() {
     const animations = [
-        {
+        /*{
             vid: 0, // id
             vname: 'Tűzoltás', // név
             vdate: '2021.04.08.', //dátum
@@ -46,7 +46,7 @@ function AnimationsCards() {
             vname: 'Munkaszervezési, gazdálkodási, foglalkoztatási és munkaügyi ismeretek Alkalmazás', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/j6EvR-hnVYc',
-        },
+        },*/
         {
             vid: 7, // id
             vname: 'Futurope promotion', // név
