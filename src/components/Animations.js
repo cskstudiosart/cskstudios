@@ -5,74 +5,82 @@ import './ImageViewer.css';
 
 function AnimationsCards() {
     const animations = [
-        /*{
-            vid: 0, // id
+        /*
+        
+        START Nem publikus videók
+        
+        {
+            vid: a, // id
             vname: 'Tűzoltás', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/r3jE2G1qujo',
         },
         {
-            vid: 1, // id
+            vid: b, // id
             vname: 'Tudatos Külpiaci Ismeretek - Szervezeti Ábra', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/NkvXDvjaOEo',
         },
         {
-            vid: 2, // id
+            vid: c, // id
             vname: 'Tudatos Külpiaci Ismeretek - Marketing Mix', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/CoFHGLLtFO0',
         },
         {
-            vid: 3, // id
+            vid: d, // id
             vname: 'Tudatos Külpiaci Ismeretek', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/jgKd1r5R4Qo',
         },
         {
-            vid: 4, // id
+            vid: e, // id
             vname: 'Veszélyes gépekre vonatkozó előírások', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/h0NUdZYRWgI',
         },
         {
-            vid: 5, // id
+            vid: f, // id
             vname: 'Közlekedés a raktárban', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/0T8hoQKnRRM',
         },
         {
-            vid: 6, // id
+            vid: g, // id
             vname: 'Munkaszervezési, gazdálkodási, foglalkoztatási és munkaügyi ismeretek Alkalmazás', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/j6EvR-hnVYc',
-        },*/
+        },
+        
+        END Nem publikus videók
+        
+        */
         {
-            vid: 7, // id
+            vid: 0, // id
             vname: 'Futurope promotion', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/LxmTFbIgIgA',
         },
         {
-            vid: 8, // id
+            vid: 1, // id
             vname: 'Prosocent Promotion', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/G1H73lklzd4',
         },
         {
-            vid: 9,
+            vid: 2,
             vname: 'DARTKE Office - After Effects',
             vdate: '2021.04.08.',
             vurl: 'https://www.youtube.com/embed/k6S8PSgeJM4',
         },
         {
-            vid: 10, // id
+            vid: 3, // id
             vname: 'DARTKE Office - Blender', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/Utq8rZmqAIY',
         },
         {
-            vid: 11, // id
+            vid: 4, // id
             vname: 'Dekopír fűrész CAD modellje', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/ANnbbFpWcco',
@@ -115,6 +123,7 @@ function AnimationsCards() {
                             </div>
                         </div>
                     </div>
+                    
                 )
             } else {
                 return(ibutton)
