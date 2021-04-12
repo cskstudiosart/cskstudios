@@ -84,6 +84,60 @@ function AnimationsCards() {
             vname: 'Dekopír fűrész CAD modellje', // név
             vdate: '2021.04.08.', //dátum
             vurl: 'https://www.youtube.com/embed/ANnbbFpWcco',
+        },
+        {
+            vid: 5, // id
+            vname: 'Kinetik Sculpture 01 - CAD model | Csákány Krisztián', // név
+            vdate: '2014.11.21.', //dátum
+            vurl: 'https://www.youtube.com/embed/myDJ0NGzFPE',
+        },
+        {
+            vid: 6, // id
+            vname: 'Kinetik Sculpture 02 ALPHA - CAD model', // név
+            vdate: '2014.11.26.', //dátum
+            vurl: 'https://www.youtube.com/embed/3F8Owl5mPN0',
+        },
+        {
+            vid: 7, // id
+            vname: 'Kinetik Sculpture 02 BETA - CAD model', // név
+            vdate: '2014.11.27.', //dátum
+            vurl: 'https://www.youtube.com/embed/Bzk8NbY2Xm8',
+        },
+        {
+            vid: 8, // id
+            vname: 'Kinetik Sculpture 02 - CAD model', // név
+            vdate: '2014.12.03.', //dátum
+            vurl: 'https://www.youtube.com/embed/uV3x9YCtDco',
+        },
+        {
+            vid: 9, // id
+            vname: 'Animáció készítése - Solid Edge, Keyshot', // név
+            vdate: '2014.12.15.', //dátum
+            vurl: 'https://www.youtube.com/embed/wCx_ICRjSXc',
+        },
+        {
+            vid: 10, // id
+            vname: 'Duális Horizontális Gőzgép - CSAPATMUNKA', // név
+            vdate: '2015.11.17.', //dátum
+            vurl: 'https://www.youtube.com/embed/eC5BHIxx3Sw',
+        },
+        {
+            vid: 11, // id
+            vname: 'CD tokkal vonóval', // név
+            vdate: '2015.05.08.', //dátum
+            vurl: 'https://www.youtube.com/embed/qfo066z-pGQ',
+        },
+        {
+            vid: 12, // id
+            vname: 'Lengőhimbás hajtó szerkezet', // név
+            vdate: '2015.10.24.', //dátum
+            vurl: 'https://www.youtube.com/embed/88FS8MKIQHw',
+        },
+        {
+            vid: 13, // id
+            vname: 'Szerszám befogó CAD modellje', // név
+            vdate: '2015.10.12.', //dátum
+            vurl: 'https://www.youtube.com/embed/yBHvPFX-3NU',
         }
     ]
 
@@ -123,7 +177,6 @@ function AnimationsCards() {
                             </div>
                         </div>
                     </div>
-                    
                 )
             } else {
                 return(ibutton)
