@@ -11,8 +11,10 @@ function HeroSection() {
                 <figure className='hero-img-figure'>
                     <img src="images/logo-light.png" className="hero-img" />
                 </figure>
-                <h1>Studios</h1>
-                <p>Alkotjuk az álmokat</p>
+                <h1>Csákány</h1>
+                <h2>Krisztián</h2>
+                <p>Portfólió weboldala</p>
+                {/*<p>Alkotjuk az álmokat</p>*/}
                 {/*<div className='hero-btns'>
                     <Button className='btns' href='/about' buttonStyle='btn--outline' buttonSize='btn--large'>
                         About
