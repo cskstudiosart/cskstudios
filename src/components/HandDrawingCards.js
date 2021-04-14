@@ -7,13 +7,13 @@ function HandDrawingCards() {
     const handdrawings = [
         {
             cid: 0, // id
-            cname: 'Half Face Portrait', // név
+            cname: 'Fél arc portré', // név
             cdate: '2020.10.13.', //dátum
             ctext: '', // esetleges pár mondatos leírás, ha van a képhez (nagyítás után jeleink csak meg)
         },
         {
             cid: 1,
-            cname: 'Ice Cream',
+            cname: 'Jégkrém',
             cdate: '2019.01.09.',
             ctext: '',
         },
@@ -25,31 +25,31 @@ function HandDrawingCards() {
         },
         {
             cid: 3,
-            cname: 'Love in Japane',
+            cname: 'Szerelem Japánban',
             cdate: '2019.01.09.',
             ctext: '',
         },
         {
             cid: 4,
-            cname: 'Waiting in the Hospital',
+            cname: 'Várakozás a kórházban',
             cdate: '2020.10.02.',
             ctext: '',
         },
         {
             cid: 5,
-            cname: 'Waiting in the Hospital - Filtered',
+            cname: 'Várakozás a kórházban - Szűrőzött',
             cdate: '2020.10.02.',
             ctext: '',
         },
         {
             cid: 6,
-            cname: 'Praying Hands',
+            cname: 'Imádkozó kezek',
             cdate: '2012.04.16.',
             ctext: '',
         },
         {
             cid: 7,
-            cname: 'Spatial Effect',
+            cname: 'Térhatás',
             cdate: '2020.09.08.',
             ctext: '',
         }

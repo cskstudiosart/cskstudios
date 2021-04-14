@@ -7,7 +7,7 @@ function IllustrationCards() {
     const handdrawings = [
         {
             cid: 0, // id
-            cname: 'Blood Flow', // név
+            cname: 'Véráram', // név
             cdate: '2019.09.09.', //dátum
             ctext: '', // esetleges pár mondatos leírás, ha van a képhez (nagyítás után jeleink csak meg)
         },
@@ -31,37 +31,37 @@ function IllustrationCards() {
         },
         {
             cid: 4,
-            cname: 'Star Explosion',
+            cname: 'Csillag robbanás',
             cdate: '2019.07.29.',
             ctext: '',
         },
         {
             cid: 5,
-            cname: 'Bone Structure',
+            cname: 'Csont szerkezete',
             cdate: '2019.09.09.',
             ctext: '',
         },
         {
             cid: 6,
-            cname: 'Grouping of Bones',
+            cname: 'Csontok halmaza',
             cdate: '2019.09.09.',
             ctext: '',
         },
         {
             cid: 7,
-            cname: 'Snake',
+            cname: 'Kígyó',
             cdate: '2019.07.15.',
             ctext: '',
         },
         {
             cid: 8,
-            cname: 'Swimming Man',
+            cname: 'Úszó ember',
             cdate: '2019.11.22.',
             ctext: '',
         },
         {
             cid: 9,
-            cname: 'Soda',
+            cname: 'Szódás flakon',
             cdate: '2019.10.10.',
             ctext: '',
         },
@@ -79,7 +79,7 @@ function IllustrationCards() {
         },
         {
             cid: 12,
-            cname: 'Flying Bat',
+            cname: 'Repülő denevér',
             cdate: '2019.10.10.',
             ctext: '',
         },
@@ -91,7 +91,7 @@ function IllustrationCards() {
         },
         {
             cid: 14,
-            cname: 'Owl - sport logo',
+            cname: 'Bagoly - Sport logo',
             cdate: '2019.10.10.',
             ctext: '',
         },
@@ -109,97 +109,97 @@ function IllustrationCards() {
         },
         {
             cid: 17,
-            cname: 'Cafe&Balls - logo variations',
+            cname: 'Cafe&Balls - Logó változatok',
             cdate: '2019.07.09.',
             ctext: '',
         },
         {
             cid: 18,
-            cname: 'Cafe&Balls - logo on a cup',
+            cname: 'Cafe&Balls - Logó egy csészén',
             cdate: '2019.07.09.',
             ctext: '',
         },
         {
             cid: 19,
-            cname: 'Cafe&Balls - logo on a glass cup',
+            cname: 'Cafe&Balls - Logó egy üvegpoháron',
             cdate: '2019.07.09.',
             ctext: '',
         },
         {
             cid: 20,
-            cname: 'One4All - logo',
+            cname: 'One4All - Logó',
             cdate: '2019.10.17.',
             ctext: '',
         },
         {
             cid: 21,
-            cname: 'Dead Man in the Morgue',
+            cname: 'Halott ember a hullaházban',
             cdate: '2019.09.24.',
             ctext: '',
         },
         {
             cid: 22,
-            cname: 'Heart',
+            cname: 'Szív',
             cdate: '2019.09.17.',
             ctext: '',
         },
         {
             cid: 23,
-            cname: 'Raging Man',
+            cname: 'Üvöltő ember',
             cdate: '2019.09.18.',
             ctext: '',
         },
         {
             cid: 24,
-            cname: 'Muscle Cramp',
+            cname: 'Izom görcs',
             cdate: '2019.09.18.',
             ctext: '',
         },
         {
             cid: 25,
-            cname: 'Moai Cartoon',
+            cname: 'Moai',
             cdate: '2020.10.19.',
             ctext: '',
         },
         {
             cid: 26,
-            cname: 'Brain and Heart Quarrel',
+            cname: 'Az agy és a szív vitája',
             cdate: '2020.10.19.',
             ctext: '',
         },
         {
             cid: 27,
-            cname: 'Rejection',
+            cname: 'Elutasítás',
             cdate: '2020.10.19.',
             ctext: '',
         },
         {
             cid: 28,
-            cname: 'Holding Hands',
+            cname: 'Kézenfogva',
             cdate: '2020.10.19.',
             ctext: '',
         },
         {
             cid: 29,
-            cname: 'Safety Helmet',
+            cname: 'Munkavédelmi sisak',
             cdate: '2019.12.11.',
             ctext: '',
         },
         {
             cid: 30,
-            cname: 'Crashed Safety Helmet',
+            cname: 'Törött Munkavédelmi sisak',
             cdate: '2019.12.11.',
             ctext: '',
         },
         {
             cid: 31,
-            cname: 'Chines Electric Car',
+            cname: 'Kínai elektromos autó',
             cdate: '2020.07.24.',
             ctext: '',
         },
         {
             cid: 32,
-            cname: 'Arnold in Training',
+            cname: 'Arnold edzés közben',
             cdate: '2020.07.24.',
             ctext: '',
         }

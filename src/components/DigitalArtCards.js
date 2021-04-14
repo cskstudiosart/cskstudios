@@ -7,73 +7,73 @@ function DigitalArtCards() {
     const digitalart = [
         {
             cid: 0, // id
-            cname: 'Portrait about Luca Baranyi', // név
+            cname: 'Portré: Baranyi Luca', // név
             cdate: '2020.04.06.', //dátum
             ctext: '', // esetleges pár mondatos leírás, ha van a képhez (nagyítás után jeleink csak meg)
         },
         {
             cid: 1,
-            cname: 'Portrait about Vendel Valentin Baranyi',
+            cname: 'Portré: Baranyi Vendel Valentin',
             cdate: '2020.10.04.',
             ctext: '',
         },
         {
             cid: 2,
-            cname: 'Portrait about Réka Iványi',
+            cname: 'Portré: Iványi Réka',
             cdate: '2019.07.29.',
-            ctext: 'Portrait about Réka Iványi with eyeglasses.',
+            ctext: 'Portré Iványi Rékáról szemüvegben',
         },
         {
             cid: 3,
-            cname: 'Portrait about Réka Iványi',
+            cname: 'Portré: Iványi Réka',
             cdate: '2019.07.29.',
-            ctext: 'Portrait about Réka Iványi without eyeglasses.',
+            ctext: 'Portré Iványi Rékáról szemüveg nélkül',
         },
         {
             cid: 4,
-            cname: 'Portrait of a horse',
+            cname: 'Portré egy lóról',
             cdate: '2019.10.16.',
             ctext: '',
         },
         {
             cid: 5,
-            cname: 'Damaged Heart',
+            cname: 'Sebzett szív',
             cdate: '2019.07.29.',
             ctext: '',
         },
         {
             cid: 6,
-            cname: 'Poke',
+            cname: 'Bökés',
             cdate: '2019.07.29.',
             ctext: '',
         },
         {
             cid: 7,
-            cname: 'Pickaxe',
+            cname: 'Csákány',
             cdate: '2019.07.29.',
             ctext: '',
         },
         {
             cid: 8,
-            cname: 'Female',
+            cname: 'Nő',
             cdate: '2019.07.29.',
             ctext: '',
         },
         {
             cid: 9,
-            cname: 'Praying Hands',
+            cname: 'Imádkozó kezek',
             cdate: '2019.07.29.',
             ctext: '',
         },
         {
             cid: 10,
-            cname: 'Moon Flower',
+            cname: 'Holdvirág',
             cdate: '2020.03.22.',
             ctext: '',
         },
         {
             cid: 11,
-            cname: 'Theater',
+            cname: 'Színház',
             cdate: '2019.09.09.',
             ctext: '',
         },
@@ -85,7 +85,7 @@ function DigitalArtCards() {
         },
         {
             cid: 13,
-            cname: 'Night Landscape',
+            cname: 'Éjszakai táj',
             cdate: '2019.10.10.',
             ctext: '',
         }
