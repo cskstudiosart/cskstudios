@@ -28,20 +28,20 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
                         <h2>Továbbiak</h2>
-                        <Link to='/sign-up'>Kezdőlap</Link>
-                        <Link to='/'>Rólam</Link>
-                        <Link to='/'>Galéria</Link>
-                        <Link to='/'>Projektek</Link>
-                        <Link to='/'>Kapcsolat</Link>
+                        <Link to='/'>Kezdőlap</Link>
+                        <Link to='/about'>Rólam</Link>
+                        <Link to='/galery'>Galéria</Link>
+                        <Link to='/projects'>Projektek</Link>
+                        <Link to='/contact'>Kapcsolat</Link>
                     </div>
                     <div class='footer-link-items'>
                         <h2>Galéria</h2>
-                        <Link to='/'>Kézi rajzok</Link>
-                        <Link to='/'>Digital Art</Link>
-                        <Link to='/'>Illusztrációk</Link>
-                        <Link to='/'>Modellezés</Link>
-                        <Link to='/'>Animációk</Link>
-                        <Link to='/'>Timelapse</Link>
+                        <Link to='/handdrawing'>Kézi rajzok</Link>
+                        <Link to='/digitalart'>Digital Art</Link>
+                        <Link to='/illustration'>Illusztrációk</Link>
+                        <Link to='/modelling'>Modellezés</Link>
+                        <Link to='/animation'>Animációk</Link>
+                        <Link to='/timelapse'>Timelapse</Link>
                     </div>
                     <div class='footer-link-items'>
                         <h2>Elérhetőség</h2>
